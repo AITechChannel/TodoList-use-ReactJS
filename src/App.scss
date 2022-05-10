@@ -1,0 +1,16 @@
+@import './Components/Global/_global';
+@import './Components/Header/_header';
+@import './Components/Body/_body';
+@import './Components/Footer/_footer';
+
+.wrapper {
+    width: 80%;
+    height: 100%;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    .container {
+        border-radius: 20px;
+        overflow: hidden;
+    }
+}
